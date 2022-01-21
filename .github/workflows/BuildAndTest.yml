@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./GitHubActionsDemoWeb
+        working-directory: ./GitHubActionsWeb
 
     steps:
     - uses: actions/checkout@v2
